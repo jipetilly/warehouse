@@ -11,7 +11,130 @@
     <title>Warehouse - Prepa Test</title>
 </head>
 <body>
+
+    <!--  nav + header -->
+    <header id="header">
+        <!-- navigation -->
+        <nav class="wrapper" id="nav">
+            <div class="logo">
+                <a href="index.html">warehouse</a>
+            </div>
+            <div class="links">
+                
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#agents">Agents</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="burger-menu" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="cross" id="closed">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <!-- End navigation -->
+    </header>
+    <!-- End nav + header -->
     
+    <!-- Main content -->
+    <main>
+        
+        <!-- Header background ( slide )-->
+        <section id="home" class="swiper-container">
+            
+                <div class="swiper-wrapper">
+                    
+                    <!-- changing slides -->
+                    
+                    <!-- slide 1 -->
+                    <div class="swiper-slide" style="background:url('img/hero_1.jpg')no-repeat center/cover;">
+                        <div class="info-hero wrapper">
+                            <h1>buy & sell property here</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum?
+                            </p>
+                            <div>
+                                <a href="#" class="btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end slide 1 -->
+                    
+                    <!-- slide 2 -->
+                    <div class="swiper-slide" style="background:url('img/hero_2.jpg')no-repeat center/cover;">
+                        <div class="info-hero wrapper">
+                            <h1>find you perfect property <br> for your home</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum?
+                            </p>
+                            <div>
+                                <a href="#" class="btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end slide 2 -->
+                    <!-- Add Pagination -->
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            
+        </section>
+        <!-- end background -->
+
+                <!-- Our Outstanding Houses -->
+                <section class="outstanding-house" id="properties">
+                    <div class="outstanding-house_content  wrapper">
+                        <!-- title -->
+                        <div class="outstanding-house_content_title"> 
+                            <h2>our outstanding houses</h2>
+                        </div>
+                        <!-- 3 blocks -->
+                        <div class="outstanding-house_content_blocks">
+                            <!-- block 1 -->
+                            <div class="block">
+                                <div>
+                                    <img src="img/property_1.jpg" alt="inside of a condo">
+                                </div>
+                                <div class="block-text">
+                                    <h3>Un petit appart cosy</h3>
+                                    <p>New York - USA</p>
+                                    <p class="price">$20,000,000</p>
+                                </div>
+                            </div>
+                            <!-- block 2 -->
+                            <div class="block">
+                                <div>
+                                    <img src="img/property_2.jpg" alt="dining room">
+                                </div>
+                                <div class="block-text">
+                                    <h3>La maisonnette toute propre</h3>
+                                    <p>Ottignies - BEL</p>
+                                    <p class="price">$40,000,000</p>
+                                </div>
+                            </div>
+                            <!-- block 3 -->
+                            <div class="block">
+                                <div>
+                                    <img src="img/property_3.jpg" alt="open space corridor">
+                                </div>
+                                <div class="block-text">
+                                    <h3>Un petit appart cosy</h3>
+                                    <p>Auderghem - BEL</p>
+                                    <p class="price">$1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Our Outstanding Houses -->
+
+
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.min.js"></script>
