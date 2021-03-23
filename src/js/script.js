@@ -25,11 +25,11 @@ window.addEventListener("scroll", function () {
 // BURGER MENU
 var monBurger = document.getElementById("burger"),
     mesLinks = document.querySelector(".links"),
-    maCroix = document.querySelector("#closed");
+    monClose = document.querySelector("#closed");
 function ajoutClasse() {
-    mesLinks.classList.add("active"), maCroix.classList.add("closed");
+    mesLinks.classList.add("active"), monClose.classList.add("closed");
 }
 function retireClasse() {
-    maCroix.classList.remove("closed"), mesLinks.classList.remove("active");
+    monClose.classList.remove("closed"), mesLinks.classList.remove("active");
 }
-monBurger.addEventListener("click", ajoutClasse), maCroix.addEventListener("click", retireClasse);
+monBurger.addEventListener("click", ajoutClasse), monClose.addEventListener("click", retireClasse);
