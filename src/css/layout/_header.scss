@@ -24,6 +24,11 @@ header {
     text-decoration: none;
 }
 
+.btn:hover {
+    background-color: #000000;
+    transition: .2s ease-in-out;
+}
+
 #home {
     height: 100vh;
 }
