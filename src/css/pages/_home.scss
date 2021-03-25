@@ -79,9 +79,10 @@ section {
     .outstanding-house_content_blocks {
         width: 100%;
         margin: 30px 0;
+        padding-bottom: 50px;
     }
     .outstanding-house_content_blocks .block {
-        padding-bottom: 50px;
+        margin-top: 50px;
         width: 40%;
     }
     .outstanding-house_content_title {
@@ -96,9 +97,10 @@ section {
         align-items: center;
         width: 450px;
         margin: 30px auto;
+        padding-bottom: 50px;
     }
     .outstanding-house_content_blocks .block {
-        padding-bottom: 50px;
+        margin-top: 50px;
         width: 80%;
     }
     .outstanding-house_content_title {
@@ -118,7 +120,10 @@ color: #616161;
 }
 .real-estate_content_agents {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
     width: 100%;
 }
 .agent {
@@ -196,21 +201,11 @@ transition: all ease-in-out 0.4s;
     text-align: center;
     color: #000;
 }
-@media screen and (max-width: 1000px) {
-    .works-how {
-        width: 100%;
-        margin: 30px 0;
-    }
-}
-@media screen and (max-width: 768px) {
-    .works-how {
-        width: 100%;
-        margin: 30px auto;
-    }
-}
+
 .works-how_content_hiw {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     width: 100%;
@@ -236,6 +231,33 @@ transition: all ease-in-out 0.4s;
     background-color: black;
 }
 
+.fas {
+    font-size: 36px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .works-how_content_hiw {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .works-how {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .lign-bk {display: none;}
+}
+@media screen and (max-width: 768px) {
+    .works-how {
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .works-how_content_hiw {
         display: flex;
@@ -245,12 +267,11 @@ transition: all ease-in-out 0.4s;
     .works-how_content_hiw .hiw-method {
         width: 50%;
     }
+    .lign-bk {
+        display: none;
+    }
 }
 
-.fas {
-    font-size: 36px;
-    margin-left: 5px;
-}
 
 // NEWS & EVENTS
 
